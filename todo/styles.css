@@ -1,0 +1,95 @@
+* {
+  font-family: "Space Grotesk";
+}
+
+body {
+  padding-top: 60px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: #f9f9f9 solid 2px;
+  box-shadow: 0px 5px 50px #88888818;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  background: white;
+  border: solid rgba(107, 143, 222, 0.193);
+  border-radius: 5px;
+  padding: 8px 15px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  background: rgb(65, 25, 221);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  flex: 1;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.todo {
+  background: white;
+  box-shadow: 0px 5px 10px #88888810;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chk {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d4d4d4;
+  accent-color: greenyellow;
+  color: white;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s ease-in-out;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
